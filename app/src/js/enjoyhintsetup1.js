@@ -14,7 +14,7 @@ var enjoyhint_script_steps = [{
     	"next #addn": '<p>Add new entry with your friends when updated seen to both</p>'
     },
     {
-    	"next #counter": '<p>click if you like the prototype all your suggestions are welcome</p>'
+    	"next #likek": '<p>click if you like the prototype all your suggestions are welcome</p>'
     }
 
 ];
