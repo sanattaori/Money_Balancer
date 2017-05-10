@@ -1,1 +1,228 @@
-screen1
+
+  <html>
+    <head>
+<style>
+  
+  .body {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+
+    .main {
+      flex: 1 0 auto;
+    }
+
+    .pad1{
+     padding-left:20px ;
+    }
+
+
+    
+    .input-field input[type=password]:focus {
+      border-bottom: 2px solid #e91e63;
+      box-shadow: none;
+    }
+  </style>
+
+<!--enjoyhints-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/enjoyhint/3.1.0/enjoyhint.css" />
+<!--css-->
+<link rel="stylesheet" href="ui/style.css">
+
+<!--bootstrap-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!--cssm-->
+<!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+  
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!--Import materialize.css-->
+      
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+<div>      
+<nav>
+    <div class="nav-wrapper  blue lighten-1">
+      <a href="/" class="brand-logo center">Money Balancer</a>
+      
+    </div>
+  </nav>
+</div>
+
+
+
+  
+      <div align="center"><h6>This is prototype for my money balancer app and not actual app.</h6></div>
+  
+<div class="blockh ">
+ <div id="liste"> <h5>List of expenses</h5> </div>
+
+   <table class="striped">
+        <thead>
+          <tr>
+              <th>Title</th>
+              <th>Description</th>
+              <th>Date</th>
+              <th>Amount</th>
+              <th>Return or Get</th>
+              <th>Transaction Owner</th>
+
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr><div id="dom">
+            <td>dominos</td></div>
+            <td>Pizza Party</td>
+            <td>May 1,2017</td>
+            <td>Rs 100</td>
+            <td>Get Rs 50</td>
+            <td>Me</td>
+          </tr>
+          <tr>
+            <td>test</td>
+            <td>Purchase</td>
+            <td>May 2,2017</td>
+            <td>Rs 2000</td>
+            <td>Return Rs 1000</td>
+            <td>Me</td>
+
+          </tr>
+          <tr>
+            <td>friend </td>
+            <td> </td>
+            <td>May 3,2017</td>
+            <td>Rs 30000</td>
+            <td>Get Rs 20000</td>
+            <td>Me</td>
+          </tr>
+          <tr>
+            <td>Fees</td>
+            <td>College fees</td>
+            <td>May 4,2017</td>
+            <td>Rs 50000</td>
+            <td>Return Rs 50000</td>
+            <td>Ravi</td>
+          </tr>
+          <tr>
+            <td>test</td>
+            <td>test</td>
+            <td>May 6,2017</td>
+            <td>Rs 1000</td>
+            <td>Get Rs 1000</td>
+            <td>AB</td>
+          </tr>
+        </tbody>
+      </table>
+
+<div class="section"></div>
+<div id="addn">
+<h5>Add New Entry</h5></div>
+ <div  class="row pad1">
+        <div class="col s12">
+          Title :
+          <div class="input-field inline">
+            <input >
+            <label ></label>
+          </div>
+        </div>
+      </div>
+
+   
+
+      <div class="row pad1">
+        <div class="col s12">
+         Amount
+          <div class="input-field inline">
+            <input type="number">
+            <label ></label>
+          </div>
+        </div>
+      </div>
+
+      <div  class="row pad1">
+        <div class="col s12">
+          Transaction Date :
+          <div class="input-field inline">
+            <input type="date">
+            <label ></label>
+          </div>
+      </div>
+</div>
+      <div class="row pad1">
+        <div class="col s12">
+          Description
+          <div class="input-field inline">
+            <input type="text
+            ">
+            <label ></label>
+          </div>
+        </div>
+      </div>
+<div class="col s12 pad1">
+          Transaction Members 
+    <div class="chip chips-initial">
+    Ravi
+    <i class="close material-icons">close</i>
+  </div>
+  <div class="chip chips-initial">
+    Akshay
+    <i class="close material-icons">close</i>
+  </div>
+</div>
+
+<div class="pad1">
+<button class="btn waves-effect waves-light " type="submit" name="action">Submit
+    <i class="material-icons right">send</i> </div>
+  </button>
+</div>
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<div class="section"></div>
+<div class="pad1">
+
+<button id="counter">
+              
+            <i class="material-icons ">thumb_up</i></button> <span id ="count">0</span>
+          </div>
+      
+<!-- Place this tag in your head or just before your close body tag. -->
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+<!-- Place this tag where you want the +1 button to render. -->
+<div class="g-plusone" data-size="tall" data-annotation="inline" data-width="300"></div>    
+
+ <footer class="page-footer footer blue-grey darken-3">
+         
+          <div class="footer-copyright footer ">
+            <div class="container center ">
+           Made with <i class="fa fa-heart" style="color:red;"></i> by Sanat
+            
+            </div>
+          </div>
+        </footer>
+
+
+
+
+      <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js></script>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/enjoyhint/3.1.0/enjoyhint.min.js"></script>
+ <script src="js/enjoyhintsetup1.js"></script>
+
+        
+      </body>
+  </html>
